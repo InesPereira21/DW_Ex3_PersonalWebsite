@@ -30,10 +30,9 @@ document.addEventListener("touchmove", (e) => {
     cursor_rect.style.left = e.touches[0].pageX;
     cursor_rect.style.top = e.touches[0].pageY;
 
-    if (posCursor.x >= windowInitialWidth - 100 || posCursor.x >= 100) {
-        console.log("fora")
+    /*if (posCursor.x >= windowInitialWidth - 100 || posCursor.x >= 100) {
         window.resizeTo(windowInitialWidth, windowInitialHeight) //Doesn't work
-    }
+    }*/
 })
 
 /* NAV */
