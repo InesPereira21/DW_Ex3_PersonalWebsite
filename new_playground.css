@@ -134,6 +134,7 @@ h1.explore {
     position: absolute;
     transform: translate(-50%, -50%);
     z-index: -1;
+    border-radius: 200px;
     width: 18vw;
     height: auto;
     aspect-ratio: 1;
